@@ -3,6 +3,14 @@
 import { motion } from "framer-motion";
 import { Code2, Sparkles, Layers3, Database } from "lucide-react";
 
+export interface Course {
+  id: string;
+  title: string;
+  progress: number;
+  icon_name: string;
+  created_at: string;
+}
+
 const icons: any = {
   Code2,
   Sparkles,

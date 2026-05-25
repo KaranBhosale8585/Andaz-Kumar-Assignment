@@ -10,7 +10,5 @@ export async function getCourses() {
     throw new Error("Failed to fetch courses");
   }
 
-  console.log(data)
-
   return data;
 }
